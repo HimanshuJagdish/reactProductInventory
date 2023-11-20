@@ -6,6 +6,7 @@
  import AddIcon from '@mui/icons-material/Add';
  import UpdateIcon from '@mui/icons-material/Update';
  import { styled } from '@mui/system';
+ import './App.css';
 
 import {
   Button,
@@ -140,7 +141,7 @@ const App = () => {
   });
 
   return (
-    <GradientBackground>
+    
     <Container>
       <Typography variant="h4" align="center" gutterBottom>
         Product Inventory
@@ -272,7 +273,7 @@ const App = () => {
         onRowsPerPageChange={handleChangeRowsPerPage}
       />
     </Container>
-    </GradientBackground>
+    
   );
 };
 
